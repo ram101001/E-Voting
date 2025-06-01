@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+mysql-connector = "==2.2.9"
+virtualenv = "==20.0.31"
+pillow = "*"
+django-renderpdf = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
